@@ -1,1 +1,1 @@
-# trend
+TrendNest is a user-friendly platform designed for seamless online shopping. It offers a wide range of products and an intuitive interface. Customers can browse, compare, and purchase effortlessly, ensuring a smooth shopping experience.
