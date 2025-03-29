@@ -8,6 +8,14 @@ function onLoad() {
   displayBagSummary();
 }
 
+function placedOrder(){
+  if (bagItemObjects.length > 0) {
+    alert("🎉 Order Confirmed! Your items will be delivered soon. Thank you for shopping with us!");
+} else {
+    alert("🛒 Your bag is empty! Add some items before placing an order.");
+}
+}
+
 function displayBagSummary() {
   let bagSummaryElement = document.querySelector('.bag-summary');
   let totalItem = bagItemObjects.length;
@@ -35,7 +43,7 @@ function displayBagSummary() {
     </div>
     <div class="price-item">
       <span class="price-item-tag">Convenience Fee</span>
-      <span class="price-item-value">₹99</span>
+      <span class="price-item-value">₹49</span>
     </div>
     <hr>
     <div class="price-footer">
@@ -43,7 +51,7 @@ function displayBagSummary() {
       <span class="price-item-value">₹${finalPayment}</span>
     </div>
   </div>
-  <button class="btn-place-order">
+  <button onclick="placedOrder()" class="btn-place-order">
     <div class="css-xjhrni">PLACE ORDER</div>
   </button>
   `;
@@ -82,7 +90,7 @@ function removeFromBag(itemId) {
 function generateItemHTML(item) {
   return `<div class="bag-item-container">
     <div class="item-left-part">
-      <img class="bag-item-img" src="../${item.image}">
+      <img class="bag-item-img" src="${item.image}">
     </div>
     <div class="item-right-part">
       <div class="company">${item.company}</div>
