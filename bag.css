@@ -11,8 +11,8 @@
   
   .bag-page {
     width: 75%;
-    margin-left: 12.5%;
-    display:flex;
+    display: flex;
+    margin: 20px 0px 20% 13%;
   }
   
   .bag-summary {
@@ -71,6 +71,11 @@
     background-color: rgb(255, 63, 108);
     color: rgb(255, 255, 255);
     cursor: pointer;
+    transition: .3s ease-in;
+    &:active{
+      background-color: rgb(247, 47, 94);
+      transform: scale(1.05);
+    }
   }
   
   .bag-item-container {
