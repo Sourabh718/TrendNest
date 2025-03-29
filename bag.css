@@ -12,6 +12,7 @@
   .bag-page {
     width: 75%;
     margin-left: 12.5%;
+    display:flex;
   }
   
   .bag-summary {
