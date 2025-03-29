@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -12,29 +13,31 @@ header {
     align-items: center;
     border-bottom: 1px solid #b6b1b1;
 }
-.myntra_home {
-    height: 45px;
+.logo-img {
+    height: 65px;
+    border-radius: 20px;
 }
 .logo_container {
-    margin-left: 4%;
+    margin-left: 2%;
 }
 .action_bar {
-    margin-right: 4%;
+    margin-right: 2%;
 }
 .nav_bar {
     display: flex;
-    min-width: 500px;
+    min-width: 400px;
     justify-content: space-evenly;
 }
 .nav_bar a {
-    font-size: 14px;
-    letter-spacing: .3px;
+    font-size: medium;
+    letter-spacing: .5px;
     color: #282c3f;
     font-weight: 700;
+    margin: 10px;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 28px 0;
     border-bottom: 5px solid #ffffff;
+    justify-content: space-evenly;
 }
 .nav_bar a:hover {
     border-bottom: 4px solid #f54e77;
@@ -48,7 +51,7 @@ header {
 .search_bar {
     height: 40px;
     min-width: 200px;
-    width: 30%;
+    width: 25%;
     display: flex;
     align-items: center;
 }
@@ -81,15 +84,12 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: black;
+    text-decoration: none;
 }
 
 /* Main section */
-.banner_container {
-    margin: 40px 0;
-}
-.banner_image {
-    width: 100%;
-}
+
  .items-container {
     width: 80%;
     margin: 50px 10%;
@@ -98,9 +98,9 @@ header {
     justify-content: space-evenly;
 }
 
-.sale_item {
+/* .sale_item {
     width: 250px;
-}
+} */
 
 .footer_container {
     padding: 30px 0px 40px 0px;
@@ -114,6 +114,7 @@ header {
     display: flex;
     flex-direction: column;
 }
+
 .footer_column h3 {
     color: #282c3f;
     font-size: 14px;
@@ -205,15 +206,15 @@ header {
     padding: 5px 15px;
     border-radius: 10px;
     cursor: pointer;
-    transition: .3s ease;
+    transition: .3s ease; 
+}
 
-    &:hover{
+.btn-add-bag:hover{
     background-color: rgb(110, 254, 110);
-    }
-    &:active{
-    transform: scale(0.98);
+}
+.btn-add-bag:active{
+    transform: scale(1.01);
     background-color: rgb(105, 239, 105);
-    }
 }
 .bag-item-count {
     background-color: #f16565;
@@ -230,10 +231,4 @@ header {
     top: -44px;
     font-weight: 700;
     cursor: pointer;
-}
-.action_container {
-    text-decoration: none;
-}
-a.action_container:link {
-    color:black;
 }
