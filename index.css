@@ -217,6 +217,11 @@ header {
     transform: scale(1.01);
     background-color: rgb(105, 239, 105);
 }
+.action_container .bag-item-count {
+    left: 9px;
+    top: -44px;
+    bottom: -10px;
+}
 .bag-item-count {
     background-color: #f16565;
     white-space: nowrap;
@@ -228,15 +233,10 @@ header {
     border-radius: 50%;
     font-size: 12px;
     color: #fff;
-    left: 9px;
-    top: -14px;
+    left: 1px;
+    top: -15px;
     font-weight: 700;
     cursor: pointer;
-}
-.action_container .bag-item-count {
-    left: 9px;
-    top: -44px;
-    bottom: -10px;
 }
 @media (max-width: 1008px) {
     .fontSize{
