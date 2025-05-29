@@ -46,10 +46,6 @@ header {
     color: #ff3f6c;
     font-size: 10px;
 }
-
- /* .hov:hover{    
-    text-decoration: underline;
-} */
 .search_bar {
     height: 40px;
     min-width: 200px;
@@ -100,9 +96,6 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-
-
 .footer_container {
     padding: 30px 0px 40px 0px;
     background: #FAFBFC;
@@ -115,26 +108,22 @@ header {
     display: flex;
     flex-direction: column;
 }
-
 .footer_column h3 {
     color: #282c3f;
     font-size: 14px;
     margin-bottom: 25px;
 }
-
 .footer_column a {
     color: #696b79;
     font-size: 15px;
     text-decoration: none;
     padding-bottom: 5px;
 }
-
 .copyright {
     color: #94969f;
     text-align: end;
     padding: 15px;
 }
-
 .items-container {
     width: 80%;
     margin: 40px 10%;
@@ -246,6 +235,9 @@ header {
   
 .space{
     height: 50px;
+}
+.remove-cursor {
+  cursor: default;
 }
 .hov {
   display: inline-block;
